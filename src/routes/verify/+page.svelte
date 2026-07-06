@@ -33,32 +33,32 @@
     </div>
 
     <!-- Search Box -->
-    <div class="w-full max-w-xl bg-white/[0.02] border border-white/10 rounded-2xl p-2 flex items-center shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-md">
-      <Search class="w-5 h-5 text-slate-400 ml-4 mr-2" />
+    <div class="w-full max-w-xl bg-white/[0.02] border border-white/10 rounded-2xl p-1.5 sm:p-2 flex items-center shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-md">
+      <Search class="w-5 h-5 text-slate-400 ml-3 mr-2 shrink-0" />
       <input 
         type="text" 
         placeholder="e.g. #WNT-5738-990-A" 
-        class="flex-1 bg-transparent border-none outline-none text-white placeholder-slate-500 px-2 py-4 text-lg"
+        class="flex-1 min-w-0 bg-transparent border-none outline-none text-white placeholder-slate-500 py-3 sm:py-4 text-base sm:text-lg"
       />
-      <Button class="bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl px-8 py-6 h-auto text-base font-medium shadow-[0_0_15px_rgba(79,70,229,0.3)]">
+      <Button class="bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl px-4 sm:px-8 py-3 sm:py-6 h-auto text-sm sm:text-base font-medium shadow-[0_0_15px_rgba(79,70,229,0.3)] shrink-0">
         Verify
       </Button>
     </div>
 
     <!-- Example Result Card (hidden by default in real app, showing for visual) -->
     <div class="w-full max-w-xl mt-12 p-1 rounded-2xl bg-gradient-to-br from-indigo-500/20 via-purple-500/10 to-transparent">
-      <div class="bg-slate-950/80 backdrop-blur-xl rounded-xl p-8 border border-white/5">
-        <div class="flex items-start justify-between mb-8">
+      <div class="bg-slate-950/80 backdrop-blur-xl rounded-xl p-5 sm:p-8 border border-white/5">
+        <div class="flex flex-col sm:flex-row items-start sm:items-start justify-between mb-8 gap-4 sm:gap-0">
           <div>
             <div class="flex items-center gap-2 mb-2">
-              <CheckCircle2 class="w-5 h-5 text-emerald-400" />
-              <span class="text-emerald-400 font-semibold tracking-wide uppercase text-sm">Authentic Warranty</span>
+              <CheckCircle2 class="w-5 h-5 text-emerald-400 shrink-0" />
+              <span class="text-emerald-400 font-semibold tracking-wide uppercase text-xs sm:text-sm">Authentic Warranty</span>
             </div>
-            <h3 class="text-2xl font-bold text-white">Premium Wireless Headphones</h3>
+            <h3 class="text-xl sm:text-2xl font-bold text-white leading-tight">Premium Wireless Headphones</h3>
           </div>
-          <div class="text-right">
-            <div class="text-xs text-slate-500 uppercase tracking-wider mb-1">Token ID</div>
-            <div class="font-mono text-sm text-indigo-300 bg-indigo-500/10 px-3 py-1 rounded-md border border-indigo-500/20">#8992</div>
+          <div class="text-left sm:text-right shrink-0">
+            <div class="text-[10px] sm:text-xs text-slate-500 uppercase tracking-wider mb-1">Token ID</div>
+            <div class="font-mono text-xs sm:text-sm text-indigo-300 bg-indigo-500/10 px-3 py-1 inline-block sm:block rounded-md border border-indigo-500/20">#8992</div>
           </div>
         </div>
 
