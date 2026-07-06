@@ -81,7 +81,7 @@
         <form class="space-y-5">
           <!-- Image Upload -->
           <div>
-            <label class="block text-sm font-medium text-slate-300 mb-2">NFT Image (Product Photo)</label>
+            <label class="block text-sm font-medium text-slate-300 mb-2">Warranty Card Thumbnail</label>
             <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-white/10 border-dashed rounded-xl bg-white/[0.02] hover:bg-white/5 hover:border-indigo-500/50 transition-colors cursor-pointer group">
               <div class="space-y-1 text-center">
                 <ImagePlus class="mx-auto h-12 w-12 text-slate-500 group-hover:text-indigo-400 transition-colors" />
