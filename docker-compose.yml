@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  warrant3-web:
+    container_name: warrant3-web-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      # Maps the host port 3000 to the container port 3000
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    restart: unless-stopped
