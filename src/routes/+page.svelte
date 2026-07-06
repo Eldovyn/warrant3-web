@@ -42,14 +42,14 @@
         </div>
         
         <h1 class="text-5xl lg:text-7xl font-extrabold tracking-tight leading-[1.1]">
-          The Future of <br/>
+          Tokenizing <br/>
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
-            Ownership.
+            Real World Assets.
           </span>
         </h1>
         
         <p class="text-lg text-slate-400 max-w-xl leading-relaxed">
-          Transform physical product warranties into immutable, transferable NFTs. Secure, verifiable, and forever recorded on the blockchain.
+          Bridge the gap between physical products and Web3. Tokenize product warranties as Real World Assets (RWA) to make them immutable, verifiable, and freely tradable on-chain.
         </p>
         
         <div class="flex flex-col sm:flex-row gap-4 pt-4">
@@ -112,8 +112,8 @@
           <div class="w-12 h-12 rounded-lg bg-indigo-500/20 flex items-center justify-center mb-6 border border-indigo-500/30">
             <ShieldCheck class="w-6 h-6 text-indigo-400" />
           </div>
-          <h3 class="text-xl font-bold text-white mb-3">Immutable Proof</h3>
-          <p class="text-slate-400 leading-relaxed">Once minted, a warranty can never be altered or destroyed. Cryptographic proof of your ownership, forever.</p>
+          <h3 class="text-xl font-bold text-white mb-3">Physical-to-Digital RWA</h3>
+          <p class="text-slate-400 leading-relaxed">Anchor your physical products to the blockchain. Every warranty acts as a cryptographic proof of your Real World Asset ownership, forever.</p>
         </div>
         
         <div class="p-8 rounded-2xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors group relative overflow-hidden">
