@@ -226,6 +226,17 @@
                 {result.owner.slice(0, 10)}…{result.owner.slice(-8)}
               </span>
             </div>
+            {#if result.metadata?.attributes}
+              {@const issuerAttr = result.metadata.attributes.find((a: any) => a.trait_type === "Issuer")}
+              {#if issuerAttr}
+                <div class="detail-row">
+                  <span class="detail-key">Issuer</span>
+                  <span class="detail-val mono" title={issuerAttr.value}>
+                    {issuerAttr.value.slice(0, 10)}…{issuerAttr.value.slice(-8)}
+                  </span>
+                </div>
+              {/if}
+            {/if}
             <div class="detail-row">
               <span class="detail-key">Serial Number</span>
               <span class="detail-val">{result.serialNumber}</span>

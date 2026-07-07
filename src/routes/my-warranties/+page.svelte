@@ -283,11 +283,8 @@
         <h2 class="state-title">No Warranties Found</h2>
         <p class="state-desc">
           We couldn't find any Warranty NFTs associated with your wallet.
-          If you recently received a product, you can mint its warranty on-chain.
+          If you recently purchased a product, please wait for the product issuer to mint and transfer the warranty to your address.
         </p>
-        <a href="/mint" class="btn-primary">
-          Mint a Warranty
-        </a>
       </div>
 
     {:else}
@@ -338,6 +335,16 @@
                   <span class="meta-key">Expiry</span>
                   <span class="meta-val" class:expired={!item.isActive}>{item.expiryDate}</span>
                 </div>
+                {#if item.metadata?.attributes}
+                  {@const issuerAttr = item.metadata.attributes.find((a: any) => a.trait_type === "Issuer")}
+                  {#if issuerAttr}
+                    <div class="meta-row">
+                      <ShieldCheck size={13} />
+                      <span class="meta-key">Issuer</span>
+                      <span class="meta-val mono" title={issuerAttr.value}>{issuerAttr.value.slice(0, 6)}…{issuerAttr.value.slice(-4)}</span>
+                    </div>
+                  {/if}
+                {/if}
               </div>
 
               <!-- Transfer section -->
