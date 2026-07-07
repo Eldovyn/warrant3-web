@@ -42,7 +42,7 @@
 
 <svelte:head>
   <title>Warrant3 — Blockchain-Powered Warranty NFTs</title>
-  <meta name="description" content="Tokenize product warranties as Real World Assets on the Ethereum blockchain. Immutable, verifiable, and freely tradable." />
+  <meta name="description" content="Tokenize product warranties on the Ethereum blockchain. Immutable, verifiable, and freely tradable." />
 </svelte:head>
 
 <div class="root">
@@ -100,12 +100,12 @@
 
         <h1 class="hero-heading">
           Tokenizing<br />
-          <span class="gradient-text">Real World Assets.</span>
+          <span class="gradient-text">Warranties.</span>
         </h1>
 
         <p class="hero-sub">
           Bridge the gap between physical products and Web3.
-          Tokenize product warranties as RWAs — immutable, verifiable, and
+          Tokenize product warranties — immutable, verifiable, and
           freely tradable on-chain.
         </p>
 
@@ -212,10 +212,10 @@
             <div class="feature-icon feature-icon--blue">
               <ShieldCheck size={22} />
             </div>
-            <h3 class="feature-title">Physical-to-Digital RWA</h3>
+            <h3 class="feature-title">Physical-to-Digital Warranties</h3>
             <p class="feature-desc">
               Anchor your physical products to the blockchain. Every warranty acts as a
-              cryptographic proof of your Real World Asset ownership, forever.
+              cryptographic proof of your product's guarantee, forever.
             </p>
           </div>
 
