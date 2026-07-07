@@ -1,0 +1,3 @@
+[submodule "smartcontract"]
+	path = smartcontract
+	url = git@github.com:Eldovyn/warrant3-sc.git
